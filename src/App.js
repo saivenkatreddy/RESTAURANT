@@ -8,11 +8,15 @@ import Body from './Body';
 import Footer from './Footer';
 
 const App = () => {
+
+ 
+
+
   return (
     <div className="App">
     
     <Header/>
-    <Body/>
+    <Body />
     <Footer/>
 
     </div>

@@ -5,16 +5,19 @@ import ab from './assets/ab.svg';
 import bc from './assets/bc.svg';
 import cd from './assets/cd.svg';
 import de from './assets/de.jpeg';
+import four from './assets/Sai-4.svg';
+
 
 
 // Body
-const Body = () =>{
+const Body = (props) =>{
 
     return(
 
 <div className="Main">
 
       <div className="section">
+        
         <div className="left main-content">
           <h1>All Tastes</h1>
           <h1>One Stop</h1>
@@ -84,7 +87,7 @@ const Body = () =>{
             <div className="four-imgs left">
 
             <div className="left">
-            <center><img src={de} className="main-img" alt="sm_img"/></center>
+            <center><img src={four} className="main-img" alt="sm_img"/></center>
         </div>
             </div>
             <div className="right">
