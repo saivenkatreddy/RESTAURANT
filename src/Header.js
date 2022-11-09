@@ -4,7 +4,6 @@ import SVR from './assets/SVR.svg';
 // Body
 const Header = () =>{
 
-
     return(
 
         <div className="Header Header-continued">
@@ -16,10 +15,10 @@ const Header = () =>{
   
         <div className="centre">
           <ul className="nav-list">
-            <li>Menu</li>
-            <li>About</li>
-            <li>Order</li>
-            <li>Contact</li>
+            <b><li>Menu</li></b>
+            <b><li>About</li></b>
+            <b><li>Order</li></b>
+            <b><li>Contact</li></b>
           </ul>
         </div>
   
