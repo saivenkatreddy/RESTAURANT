@@ -92,7 +92,7 @@ const Order = () =>{
             {food.map((value,index)=>{
               return(
 
-                <div className="card" key={index}>
+                <div className="card h-100" key={index}>
                 <img src={value.link}></img>
                 <h5> {value.food} </h5>
                 <h4> £{value.price} </h4>

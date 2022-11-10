@@ -227,7 +227,7 @@ img {
 
 .footer-left input[type="email"]{
   background-color: #218c74;
-  border:1px dashed white;
+  border:1px dotted white;
   padding:10px;
 }
 
@@ -244,12 +244,16 @@ img {
   flex-direction: row;
   justify-content: space-around;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size:large;
 }
 
 .footer-right ul{
   list-style-type:none;
-  padding: 10px;
-  margin: 5px;
+  padding: 50px;
+  margin-left: 5px;
+  margin-bottom: 50px;
+  margin-top: 10px;
+  margin-right: 10px;
 }
 
 .serve{
@@ -300,11 +304,13 @@ img {
 }
 
 .card{
-  width:  30vh;
-  height: 50vh;
   
+  height: 50vh;
+  width: 30vh;
   box-shadow: 5px 10px 18px black;
   margin-left: 20px;
+  margin-bottom: 30px;
+
 }
 
 .decrement-btn{
@@ -327,11 +333,7 @@ img {
 }
 
 .card input{
-  height: 3vh;
+  height: 4vh;
   width: 7vh;
 }
 
-.checkout{
-  background-color: white;
-  padding: 20px;
-}

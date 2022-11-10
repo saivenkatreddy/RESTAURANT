@@ -35,26 +35,26 @@ const Footer = () =>{
       <div className="left footer-left">
 
       <div className="left">
+      
         <img src={SVR} className="logo-img" alt="LOGO"/>
+       
       </div>
+      <div className="left">
         <h3>SVR Kitchens</h3>
         <ul>
           <li>Facebook</li>
           <li>Twitter</li>
           <li>Instagram</li>
         </ul>
-        <p> Signup for the newsletter </p>
+        <p>Signup for the newsletter </p>
+        </div>
 
         <form>
           <input type="email" name="email"/>
           <input type="submit" value="Submit"/>
         </form>
-
-      </div>
-
+        </div>
       <div className="right footer-right">
-
-
       <div className="left">
         <img src={saiserve} className="serve" alt="LOGO"/>
       </div>
@@ -73,10 +73,10 @@ const Footer = () =>{
         <div className="footer-right-second">
 
           <ul>
-            <li> Menu </li>
-            <li> Schedule </li>
-            <li> About </li>
-            <li> Catering </li>
+            <li> Orders </li>
+            <li> Health Guide </li>
+            <li> Terms </li>
+            <li> Awareness </li>
           </ul>
 
         </div>
@@ -84,10 +84,10 @@ const Footer = () =>{
         <div className="footer-right-third">
 
           <ul>
-            <li> Menu </li>
-            <li> Schedule </li>
-            <li> About </li>
-            <li> Catering </li>
+            <li> Contact </li>
+            <li> Privacy Policy </li>
+            <li> Licenses</li>
+            <li> Instructions </li>
           </ul>
         </div>
       </div>
