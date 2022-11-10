@@ -11,7 +11,7 @@ const Order = () =>{
   useEffect(()=>{
     console.log('Ordering component rendering....');
 
-    const reqAPI = `http://localhost:8081/foods/all`;
+    const reqAPI = `https://svr-best-of-all-api.netlify.app/.netlify/functions/api/foods/all`;
 
     axios.get(reqAPI).then((res)=>{
       
@@ -44,7 +44,7 @@ const Order = () =>{
       }
 
 
-      axios.post(`http://localhost:8081/foods/create`,obj).then((res)=>{
+      axios.post(`https://svr-best-of-all-api.netlify.app/.netlify/functions/api/foods/create`,obj).then((res)=>{
         setFood(res.data);
       }).catch((err)=>{
         console.log(err);
