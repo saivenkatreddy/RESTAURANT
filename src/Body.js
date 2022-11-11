@@ -7,6 +7,7 @@ import cd from './assets/cd.svg';
 import four from './assets/Sai-4.svg';
 import k from './assets/k.jpeg';
 import l from './assets/l.jpeg';
+import { Link } from "react-router-dom";
 
 
 // Body
@@ -19,11 +20,12 @@ const Body = (props) =>{
         <div className="left main-content">
           <h2>Because we know</h2>
           <b><i><h1>Good food makes good mood</h1></i></b>
-          <h4>A recipe has no soul, but a good cook can bring soul to the recipe. Our restaurants are focused on three elements : service quality (responsiveness), price, and food quality (reliability), because customer satisfaction is our priority and we always try to reach the mark.
+          <h4>A recipe has no soul, but a good cook can bring soul to the recipe. Our restaurants are focused on three elements : service quality, price, and food quality, because customer satisfaction is our priority and we always try to reach the mark.
             So, why waste your time, let's dive into our menu.
           </h4>
           <div className="centre">
-          <center><button class="button">Order Now</button></center>
+          <center><button class="button"><Link to="/order"> Order Now </Link></button></center>
+          
           </div>
         </div>
         <div className="right main-img-content">
@@ -38,8 +40,8 @@ const Body = (props) =>{
               We don't just have good
             </h1>
             <h1 className="section-2-text"> We have best of all</h1>
-            <h3 className="section-2-text"> 23 PORTWAY PLACE </h3>
-            <p className="section-2-text"> Taste all indian flavors </p>
+            <h3 className="section-2-text"> Come, join us today </h3>
+            <h3 className="section-2-text">Indulge in the world of taste </h3>
           </div>
         </div>
       </div>

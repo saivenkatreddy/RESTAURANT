@@ -17,16 +17,13 @@ const Footer = () =>{
 
 
     <div className="Footer Footer-continued">
-
     <div className="footer-section">
-
       <div className="left">
-        <h1>Come, Enjoy the Joy of food</h1>
+        <h1>Enjoy the deliciousness</h1>
       </div>
       <div className="right">
         <h1>Your first meal is on us</h1>
       </div>
-
     </div>
 
     <div className="footer-section horizontal">

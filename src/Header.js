@@ -12,7 +12,7 @@ const Header = () =>{
         <div className="Header Header-continued">
 
         <div className="left">
-          <img src={SVR} className="logo-img" alt="LOGO"/>
+          <img src={SVR} className="logo-img" alt="LOGO"/><Link to="/order">.</Link>
         </div>
   
   
