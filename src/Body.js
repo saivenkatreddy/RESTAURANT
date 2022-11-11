@@ -24,8 +24,7 @@ const Body = (props) =>{
             So, why waste your time, let's dive into our menu.
           </h4>
           <div className="centre">
-          <center><button class="button"><Link to="/order"> Order Now </Link></button></center>
-          
+          <center><button class="butto"><Link to="/order"> Order Now </Link></button></center>
           </div>
         </div>
         <div className="right main-img-content">
@@ -37,9 +36,9 @@ const Body = (props) =>{
           <img src={saibig} className="big-img" alt="big_img"/>
           <div className="centered">
             <h1 className="section-2-text">
-              We don't just have good
+            We make yummy
             </h1>
-            <h1 className="section-2-text"> We have best of all</h1>
+            <h1 className="section-2-text"> For your tummy</h1>
             <h3 className="section-2-text"> Come, join us today </h3>
             <h3 className="section-2-text">Indulge in the world of taste </h3>
           </div>
@@ -55,7 +54,7 @@ const Body = (props) =>{
             <li>
                 <center><img src={ab} className="logo-img" alt="sm_img"/></center>
               <h3>Plant-based</h3>
-              <p>Welcome to a new year of healthy, delicious plant-based eating! With 94% of people saying they are interested eating more plant-based today—whether vegan, vegetarian, </p>
+              <p>Welcome to a new year of healthy, delicious plant-based eating! With 94% of people saying they are interested eating more plant-based today—whether vegan or vegetarian </p>
             </li>
             <li>
             <center><img src={bc} className="logo-img" alt="sm_img"/></center>
