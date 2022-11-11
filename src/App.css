@@ -3,7 +3,7 @@
 }
 
 body{
-  background-color: #f7d794;
+  background-color: #f7f1e3;
 }
 
 .Header-continued{
@@ -15,7 +15,7 @@ body{
 }
 
 .logo-img{
-  width:10vh;
+  width:15vh;
   height: auto;
 }
 
@@ -53,7 +53,7 @@ body{
   margin-top:-1%;
   margin-bottom: -3%;
   transform: rotate(-2deg);
-  width:160vh;
+  width:135vh;
   height: auto;
   margin-left: auto;
   margin-right: auto;
@@ -62,17 +62,17 @@ body{
 .big-img-section{
   position: relative;
   text-align: center;
-  color: white;
+  color: #f7f1e3;
   margin-left:10%;
 }
 
 .section-3{
-  background-color: #218c74;
+  background-color: #40407a;
   display: flex;
   flex-direction: column !important;
   justify-content: center;
   text-align: center;
-  color:white;
+  color:#f7f1e3;
 }
 
 .section-3-content{
@@ -92,31 +92,9 @@ body{
   padding: 15px;
 }
 
-.nav-list{
-  list-style-type: none;
-  font-family:Arial, Helvetica, sans-serif;
-  
-}
-
-.nav-list li{
-  float:left;
-  margin-left:3em;
-  padding: 1px;
-  font-family:Arial, Helvetica, sans-serif;
-  color: #218c74;
-  font-size: large;
-}
-
-.nav-list li:hover{
-  font-weight: bolder;
-  border: 1px solid #218c74;
-  background-color:#218c74;
-  color:white;
-}
-
 .find-btn{
-  border:1px solid #218c74;
-  background-color: #218c74;
+  border:1px solid #40407a;
+  background-color: #40407a;
   padding:1vh;
   margin-right:auto;
   transform: rotate(10deg);
@@ -124,8 +102,8 @@ body{
 }
 
 .find-btn-2{
-  border:1px solid #218c74;
-  background-color: #218c74;
+  border:1px solid #40407a;
+  background-color: #40407a;
   padding:1vh;
   margin-right:auto;
   transform: rotate(10deg);
@@ -133,7 +111,7 @@ body{
 
 
 .find-btn-helper{
-  border:1px solid #218c74;
+  border:1px solid #40407a;
   padding:1vh;
   transform: rotate(10deg);
   margin-top: -30%;
@@ -141,7 +119,7 @@ body{
 }
 
 .find-btn-helper-2{
-  border:1px solid #218c74;
+  border:1px solid #40407a;
   padding:1vh;
   transform: rotate(10deg);
   width:6vh;
@@ -152,12 +130,14 @@ body{
 
 .left{
   float:left;
-  
+  margin-left: 3%;
+  margin-top: 1%;
 }
 
 .centre{
   margin-left:auto;
   margin-right:auto;
+  margin-top: 2%;
   
 }
 
@@ -177,7 +157,7 @@ body{
 }
 
 .Footer-continued{
-  background-color: #218c74;
+  background-color: #40407a;
   color: azure;
   padding:20px !important;
   height: auto;
@@ -186,13 +166,13 @@ body{
 
 .horizontal{
   min-height: 20px;
-  border-top: 5px solid white;
+  border-top: 5px solid #f7f1e3;
   margin-top:5%;
 }
 
 
 .four-imgs{
-  width:400vh;
+  width:100vh;
   margin-top:-1%;
 }
 
@@ -216,7 +196,7 @@ img {
 }
 
 .footer-left{
-  padding:20px;
+  padding:10px;
 
 }
 
@@ -226,15 +206,15 @@ img {
 }
 
 .footer-left input[type="email"]{
-  background-color: #218c74;
-  border:1px dotted white;
+  background-color: #40407a;
+  border:1px dotted #f7f1e3;
   padding:10px;
 }
 
 .footer-left input[type="submit"]{
-  background-color: #218c74;
+  background-color: #40407a;
   padding:10px;
-  background-color: #f7d794;
+  background-color: #f7f1e3;
   border:none;
   margin-left:-2%;
 }
@@ -272,28 +252,30 @@ img {
   text-align: center;
 }
 
-.order-section-left{
+.order-section-right{
   padding: 20px;
-  background-color: #218c74;
+  background-color: #f7f1e3;
   border-radius: 5%;
+  border-color: #636e72;
   text-align: center;
 }
 
-.order-section-left ul{
+.order-section-right ul{
   list-style-type: none;
+  border-color: #636e72;
 }
 
-.order-section-left ul li{
+.order-section-right ul li{
   margin: 15px;
   padding: 15px;
-  color:#218c74;
-  text-shadow: 1px 1px #218c74;
+  color:#f7f1e3;
   font-size: larger;
   font-weight: bolder;
   background-color: black;
+  border-color: #636e72;
 }
 
-.order-section-right{
+.order-section-left{
   margin: auto;
   padding: 20px;
   display: flex;
@@ -331,9 +313,170 @@ img {
   padding:5px;
   
 }
-
+  
 .card input{
   height: 4vh;
   width: 7vh;
 }
 
+.form-div{
+
+  border:1px solid gray;
+  width: 30vh;
+  margin-left:auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  box-shadow: 2px 4px gray;
+  background-color: white;
+  padding:5px;
+}
+
+.form-div button{
+  background-color: #40407a;
+  border:none;
+  border-radius: 10px;
+  box-shadow: 3px 3px gray;
+  color: white;
+  font-weight: bolder;
+  padding: 5px;
+  width: 10vh;
+  margin: 5px;
+  
+}
+
+.form input{
+  padding: 10px;
+  margin: 5px;
+  border:none;
+  border-left: 3px solid gray;
+  border-bottom: 1px dotted gray;
+  background-color: lightgray;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  width: 20vh;
+  box-shadow: 3px 3px gray;
+}
+
+.form input[type="submit"]{
+  background-color: #40407a;
+  border:none;
+  border-radius: 10px;
+  box-shadow: 3px 3px gray;
+  color: white;
+  font-weight: bolder;
+}
+
+.footer-left-content{
+  float: left;
+  text-align: left;
+  padding: 5px;
+}
+
+
+div.background {
+  background: url(https://media.istockphoto.com/id/1287014057/photo/indonesian-traditional-foods-served-on-the-table.jpg?s=612x612&w=0&k=20&c=aH-KuO2Fwjv2M_k7WU-d_2UF1mrtxDIPmYqyUwsqq1s=) repeat;
+  border: 2px solid black;
+}
+
+div.transbox {
+  margin: 50px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.8;
+}
+
+div.transbox p {
+  margin: 10%;
+  font-weight: bold;
+  color: blanchedalmond;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*navigation header*/
+
+
+.nav-list{
+  list-style-type:none;
+  font-family:Arial, Helvetica, sans-serif;
+  
+  
+}
+
+.nav-list li{
+  float:left;
+  margin-left:3em;
+  padding: 1px;
+  font-family:Arial, Helvetica, sans-serif;
+  color: #40407a;
+  font-size:x-large;
+  text-decoration: none;
+}
+
+.nav-list a{
+  text-decoration:wavy;
+}
+
+.nav-list li:hover{
+  font-weight: bolder;
+  border: 5px solid #f7f1e3;
+  background-color:#f7f1e3;
+  color:#f7f1e3;
+  display: inline-block;
+}
+
+
+.navbar ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 40px;
+  position: relative;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+.navbar ul li::after{
+  content: '';
+  height: 1px;
+  width: 0;
+  background:#40407a;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
+}
+.navbar ul li:hover::after{
+  width: 100%;
+}
+
+
+
+
+
+.menuItems a{
+  color: black;
+  border:1px solid black;
+  font-weight: bolder;
+  padding: 5px;
+  border-radius: 5px;
+}
+.menuItems a:hover{
+  color: white;
+  border:1px solid black;
+  font-weight: bolder;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: black;
+}

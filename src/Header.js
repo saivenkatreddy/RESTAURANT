@@ -1,5 +1,8 @@
 // Imports
-import SVR from './assets/SVR.svg';
+import SVR from './assets/abcd.png';
+import * as React from "react";
+import { Link } from "react-router-dom";
+import './App.css';
 
 // Body
 const Header = () =>{
@@ -14,25 +17,21 @@ const Header = () =>{
   
   
         <div className="centre">
+          <div className="navbar">
           <ul className="nav-list">
-            <b><li>Menu</li></b>
-            <b><li>About</li></b>
-            <b><li>Order</li></b>
-            <b><li>Contact</li></b>
+            <li><Link to="/"> Home </Link></li>
+            <li><Link to="/order"> About </Link></li>
+            <li><Link to="/order"> Order </Link></li>
+            <li><Link to="/order"> Contact</Link></li>
+            <li><Link to="/order"> Login</Link></li>
+            <li><input type="text" name="search" placeholder="Search.."></input></li>
           </ul>
         </div>
-  
-  
-        <div className="right">
-          <button className="find-btn">Find us</button>
-          <div className="find-btn-helper"> </div>
         </div>
-  
       </div>
 
     );
 }
-
 
 // Exports
 export default Header;

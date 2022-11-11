@@ -4,9 +4,13 @@ import Footer from './Footer';
 import {useState,useEffect} from 'react';
 import axios from 'axios';
 
+
+
 const Order = () =>{
 
   const [food,setFood] = useState([]);
+
+  const [display,setDisplay] = useState(false);
 
   useEffect(()=>{
     console.log('Ordering component rendering....');
@@ -54,25 +58,65 @@ const Order = () =>{
 
   }
 
+  const displayOne = () =>{
+    const cond = !display;
+    setDisplay(!display)
+  }
+
     
     return(
         <div className="App">
             <Header/>        
     <div className="Main order">
-    
+    <br/>
+    <br/>
+    <div class="background">
+      <div class="transbox">
+        <h1>Best food for the best community.</h1>
+      </div>
+    </div>
+    <br/>
     <h1> Order Details</h1>
-    <form onSubmit={createData}>
-      <input type="text"   name="food"        placeholder='Enter food name'           required/><br/>
-      <input type="number" name="price"       placeholder='Enter food price'          required/><br/>
-      <input type="text"   name="Category"    placeholder='Enter food Category'       required/><br/>
-      <input type="text"   name="link"        placeholder='Enter food link as a URL'  required/><br/>
-      <input type="text"   name="description" placeholder='Enter food link as a URL'  required/><br/>
+    <br/>
+    <label for="locations">You are at </label>
+      <select id="location" name="location">
+        <option value="zurich">London</option>
+        <option value="geneva">Birmingham</option>
+        <option value="bern">Manchester</option>
+        <option value="geneva">Norwich</option>
+        <option value="geneva">Leeds</option>
+      </select>
+      <br/>
+      <br/>
+    <div className='form-div'>
+    <h3>Admins Use</h3>
+    <button onClick={displayOne}>Add items here</button><br/><br/>
+    
 
-      <input type="submit" value="Create" required/>
-    </form>
+      {display && (
+        <div>
+<div className="menuItems">
+            <form onSubmit={createData} className="form">
+                  <input type="text"   name="food"        placeholder='Enter Name'           required/><br/>
+                  <input type="number" name="price"       placeholder='Enter Price'          required/><br/>
+                  <input type="text"   name="Category"    placeholder='Enter Category'       required/><br/>
+                  <input type="text"   name="link"        placeholder='Enter Image URL'  required/><br/>
+                  <input type="text"   name="description" placeholder='Enter Description'  required/><br/>
+
+                  <input type="submit" value="Add item to Menu" required/>
+            </form>
+            </div>
+        </div>
+      )}
+     
+
+    
+
+    </div>
+    
       <div className="section order-section">
-        <div className="left order-section-left">
-            <h3>Items Selected</h3>
+        <div className="right order-section-right">
+            <h3><i class="fa-solid fa-basket-shopping"></i>Basket</h3>
 
             <ul>
                 <li> Chicken Tikka Masala </li>
@@ -86,7 +130,7 @@ const Order = () =>{
             </div>
         </div>
         <div className="Header-continued">
-        <div className="right order-section-right">
+        <div className="left order-section-left">
 
 
             {food.map((value,index)=>{

@@ -4,10 +4,8 @@ import saibig from './assets/Sai-big.svg';
 import ab from './assets/ab.svg';
 import bc from './assets/bc.svg';
 import cd from './assets/cd.svg';
-import de from './assets/de.jpeg';
 import four from './assets/Sai-4.svg';
-
-
+import f from './assets/f.jpeg';
 
 // Body
 const Body = (props) =>{
@@ -19,8 +17,8 @@ const Body = (props) =>{
       <div className="section">
         
         <div className="left main-content">
-          <h1>All Tastes</h1>
-          <h1>One Stop</h1>
+          <h2>It's not just GOOD</h2>
+          <b><i><h1>It's the best of all</h1></i></b>
           <p>We made our menu with a variety of special foods which are
             highly recommended by thee doctors. We prioritize health over taste.
             The main menu consists of dishes which are very important to your health. 
@@ -45,7 +43,7 @@ const Body = (props) =>{
           <img src={saibig} className="big-img" alt="big_img"/>
           <div className="centered">
             <h1 className="section-2-text">
-              Taste the <u>taste</u>
+              Deliciouslyyyy good
             </h1>
             <p className="section-2-text"> NR2 4QG </p>
             <h3 className="section-2-text"> 23 PORTWAY PLACE </h3>
@@ -58,7 +56,7 @@ const Body = (props) =>{
 
       <div className="section section-3">
         <h1>
-          You<span>'ll</span> never forget <u>us</u>
+          You<span>'ll</span> never forget us
         </h1>
         <div className="section-3-content">
 
@@ -76,37 +74,60 @@ const Body = (props) =>{
             <li>
             <center><img src={cd} className="logo-img" alt="sm_img"/></center>
               <h3>Made with love & Passion</h3>
-              <p>Our customers are our priority, we love them so much as they love their health. It is our first priority to give them</p>
+              <p>Our customers are our priority, everytime they have a meal we get questioned, what is your secret ingredient. Tha answer is we make food with LOVE.</p>
             </li>
           </ul>
           
         </div>
       </div>
 
+
+
+
+
       <div className="section">
             <div className="four-imgs left">
 
             <div className="left">
-            <center><img src={four} className="main-img" alt="sm_img"/></center>
+            <center><img src={four} classNameName="main-img" alt="sm_img"/></center>
         </div>
             </div>
             <div className="right">
               <h1 ><b>Healthy Food</b></h1>
-              <h4><b>Who doesn't like a healthy food?</b></h4>
-              <p>A revolution in food. Let it be known that I am a big fan of homemade pesto here, and I find that 
-                the best way to do things is to first dunk your bread in the pesto (it thick, flavorful, and delicious) and then dunk your pesto-ed bread 
-                into the soup. SO GOOD. 
-                                              Fresh flavor in every nook and cranny.
-                                              I still have a bunch of basil left in my garden that is nearing the end of its life (aka winter is coming), so I am excited to be making a 
-                                              bunch of pesto right now. And the flavor ugh. Its so fresh and so good. I was licking the remnants of it 
-                                              right out of the food processor.</p>
-              <button className="button">Read More</button>
+              <h4><b>Who doesn't like a healthy meal?</b></h4>
+              <p>Everytime when we cook, the main thing that we keep in mind is ou health. Our priority is not just a delicious meal but also a healthy one. 
+              </p>
+              <button className="button">Order Now</button>
+          
 
             </div>
              
       </div>
+
+
+
+
+
+
+
+
+
+      <div className="section">
+            <div className="four-imgs right">
+                <div className="right">
+                    <center><img src={f} classNameName="main-img" alt="sm_img"/></center>
+                </div>
+            </div>
+            <div className="left">
+              <h1 ><b>Healthy Food</b></h1>
+              <h4><b>Who doesn't like a healthy meal?</b></h4>
+              <p>Everytime when we cook, the main thing that we keep in mind is your health. 
+              </p>
+              <button className="button">Order Now</button>
+            </div>      
+      </div>
       
-    </div> 
+      </div> 
 
     );
 
