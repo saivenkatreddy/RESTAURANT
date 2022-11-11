@@ -95,31 +95,31 @@ body{
 .find-btn{
   border:1px solid #40407a;
   background-color: #40407a;
-  padding:1vh;
+  padding:3vh;
   margin-right:auto;
-  transform: rotate(10deg);
+  transform: rotate(-10deg);
   margin-top:20%;
 }
 
 .find-btn-2{
   border:1px solid #40407a;
-  background-color: #40407a;
+  background-color: white;
   padding:1vh;
   margin-right:auto;
-  transform: rotate(10deg);
+  transform: rotate(-10deg);
 }
 
 
 .find-btn-helper{
-  border:1px solid #40407a;
-  padding:1vh;
+  border:3px solid #f7f1e3;
+  padding:6vh;
   transform: rotate(10deg);
   margin-top: -30%;
-  height:1vh;
+  height:6vh;
 }
 
 .find-btn-helper-2{
-  border:1px solid #40407a;
+  border:1px solid #f7f1e3;
   padding:1vh;
   transform: rotate(10deg);
   width:6vh;
@@ -130,8 +130,7 @@ body{
 
 .left{
   float:left;
-  margin-left: 3%;
-  margin-top: 1%;
+  
 }
 
 .centre{
@@ -172,8 +171,8 @@ body{
 
 
 .four-imgs{
-  width:100vh;
-  margin-top:-1%;
+  width:80vh;
+  margin-top:2%;
 }
 
 img {
@@ -479,4 +478,18 @@ div.transbox p {
   padding: 5px;
   border-radius: 5px;
   background-color: black;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #40407a;
+}
+
+.one-imgs{
+  width:80vh;
+  margin-right:2%;
 }

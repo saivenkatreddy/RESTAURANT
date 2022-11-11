@@ -116,7 +116,7 @@ const Order = () =>{
     
       <div className="section order-section">
         <div className="right order-section-right">
-            <h3><i class="fa-solid fa-basket-shopping"></i>Basket</h3>
+            <b><h2>Basket</h2></b>
 
             <ul>
                 <li> Chicken Tikka Masala </li>
@@ -125,9 +125,9 @@ const Order = () =>{
                 <li> Beef Burger </li>
                 <li> Choclat Croissant </li>
             </ul>
-            <div className="container mt-3">
-            <button type="button" className="btn btn-success">Checkout</button>
-            </div>
+            <div className="centre">
+          <center><button class="button">Checkout</button></center>
+          </div>
         </div>
         <div className="Header-continued">
         <div className="left order-section-left">
